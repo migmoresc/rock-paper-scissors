@@ -1,0 +1,38 @@
+.rps body {
+    text-align: center;
+}
+
+.rps div {
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+}
+
+.rps select {
+    margin-left: 16px;
+}
+
+.rps img {
+    width: 100px;
+    margin: 0 24px;
+    cursor: pointer;
+}
+
+.rps button {
+    visibility: hidden;
+    padding: 10px;
+}
+
+@media (min-width: 590) {
+    .rps img {
+        width: 150px;
+        margin: 0 32px;
+    }
+}
+
+@media (min-width: 860px) {
+    .rps img {
+        width: 200px;
+        margin: 0 50px;
+    }
+}

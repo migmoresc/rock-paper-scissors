@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piedra Papel Tijeras</title>
+    <link rel="stylesheet" href="src/styles/style.css">
+</head>
+
+<body class="rps">
+    <main>
+        <div class="rps">
+            <label for="dificultad">Dificultad : </label>
+            <select name="dificultad" id="dificultad" class="rps">
+                <option value="Fácil">Fácil</option>
+                <option value="Difícil">Difícil</option>
+                <option value="Extrema">Extrema</option>
+                <option value="Imposible">Imposible</option>
+            </select>
+        </div>
+        <div id="eleccion" class="rps">
+            <img src="src/images/rock.svg" alt="Piedra" class="rps">
+            <img src="src/images/paper.svg" alt="Papel" class="rps">
+            <img src="src/images/scissors.svg" alt="Tijeras" class="rps">
+        </div>
+        <div class="rps">
+            <h1 id="resultado"></h1>
+        </div>
+        <div class="rps">
+            <button id="reiniciar" class="rps">Reiniciar</button>
+        </div>
+        <div class="rps">
+            <img id="ia" src="" alt="">
+        </div>
+    </main>
+    <script src="src/scripts/script.js"></script>
+</body>
+
+</html>
